@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"vibrationsens_firmware\startup_stm32f103xb.o"
+"vibrationsens_firmware\main.o"
+"vibrationsens_firmware\stm32f1xx_it.o"
+"vibrationsens_firmware\stm32f1xx_hal_msp.o"
+"vibrationsens_firmware\stm32f1xx_hal_gpio_ex.o"
+"vibrationsens_firmware\stm32f1xx_hal_spi.o"
+"vibrationsens_firmware\stm32f1xx_hal.o"
+"vibrationsens_firmware\stm32f1xx_hal_rcc.o"
+"vibrationsens_firmware\stm32f1xx_hal_rcc_ex.o"
+"vibrationsens_firmware\stm32f1xx_hal_gpio.o"
+"vibrationsens_firmware\stm32f1xx_hal_dma.o"
+"vibrationsens_firmware\stm32f1xx_hal_cortex.o"
+"vibrationsens_firmware\stm32f1xx_hal_pwr.o"
+"vibrationsens_firmware\stm32f1xx_hal_flash.o"
+"vibrationsens_firmware\stm32f1xx_hal_flash_ex.o"
+"vibrationsens_firmware\stm32f1xx_hal_exti.o"
+"vibrationsens_firmware\stm32f1xx_hal_tim.o"
+"vibrationsens_firmware\stm32f1xx_hal_tim_ex.o"
+"vibrationsens_firmware\stm32f1xx_hal_uart.o"
+"vibrationsens_firmware\system_stm32f1xx.o"
+"vibrationsens_firmware\adxl345.o"
+"vibrationsens_firmware\data_stream.o"
+"vibrationsens_firmware\cjson.o"
+--strict --scatter "VibrationSens_Firmware\VibrationSens_Firmware.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "VibrationSens_Firmware.map" -o VibrationSens_Firmware\VibrationSens_Firmware.axf

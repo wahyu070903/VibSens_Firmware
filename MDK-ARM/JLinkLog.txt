@@ -1,0 +1,501 @@
+T1724 003:909.919   SEGGER J-Link V7.92k Log File
+T1724 003:910.976   DLL Compiled: Oct 18 2023 14:58:31
+T1724 003:911.014   Logging started @ 2024-08-04 13:07
+T1724 003:911.049   Process: C:\Keil_v5\UV4\UV4.exe
+T1724 003:911.340 - 3911.084ms
+T1724 003:911.583 JLINK_SetWarnOutHandler(...)
+T1724 003:911.624 - 0.238ms
+T1724 003:911.663 JLINK_OpenEx(...)
+T1724 003:916.054   
+  ***** Error: 
+T1724 003:916.146   Cannot connect to J-Link.
+T1724 003:916.822 - 5.156ms returns "Cannot connect to J-Link."
+T1724 003:917.204 
+  ***** Warning: 
+T1724 003:917.268 API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T1724 003:917.324 JLINK_GetHardwareVersion()
+T1724 003:918.190   
+  ***** Error: 
+T1724 003:919.619   Cannot connect to J-Link.
+T1724 003:919.764 - 2.439ms
+T1724 006:467.314 JLINK_GetDLLVersion()
+T1724 006:467.347 - 0.275ms returns 79211
+T1724 006:467.366 
+  ***** Warning: 
+T1724 006:467.382 API Error: API JLINK_CORE_GetFound function called before JLINKARM_Open()
+T1724 006:467.399 JLINK_CORE_GetFound()
+T1724 006:468.454   
+  ***** Error: 
+T1724 006:468.478   Cannot connect to J-Link.
+T1724 006:468.645 - 1.245ms
+T1724 006:468.672 
+  ***** Warning: 
+T1724 006:468.688 API Error: API JLINK_GetDebugInfo function called before JLINKARM_Open()
+T1724 006:468.849 JLINK_GetDebugInfo(0x100 = JLINKARM_ROM_TABLE_ADDR_INDEX)
+T1724 006:469.790   
+  ***** Error: 
+T1724 006:469.813   Cannot connect to J-Link.
+T1724 006:469.953 - 1.247ms
+T1724 006:469.975 
+  ***** Warning: 
+T1724 006:469.991 API Error: API JLINK_GetDebugInfo function called before JLINKARM_Open()
+T1724 006:470.276 JLINK_GetDebugInfo(0x01 = Unknown)
+T1724 006:471.169   
+  ***** Error: 
+T1724 006:471.190   Cannot connect to J-Link.
+T1724 006:471.319 - 1.309ms
+T1724 006:471.336 JLINK_GetDeviceFamily
+T1724 006:471.347 - 0.010ms returns 0
+T1724 006:471.362 
+  ***** Warning: 
+T1724 006:471.377 API Error: API JLINK_GetDebugInfo function called before JLINKARM_Open()
+T1724 006:471.394 JLINK_GetDebugInfo(0x01 = Unknown)
+T1724 006:472.224   
+  ***** Error: 
+T1724 006:472.245   Cannot connect to J-Link.
+T1724 006:472.365 - 0.970ms
+T1724 006:472.380 JLINK_GetDeviceFamily
+T1724 006:472.391 - 0.010ms returns 0
+T1724 006:472.405 
+  ***** Warning: 
+T1724 006:472.420 API Error: API JLINK_GetDebugInfo function called before JLINKARM_Open()
+T1724 006:472.437 JLINK_GetDebugInfo(0x10F = JLINKARM_DEBUG_INFO_HAS_CORTEX_M_SECURITY_EXT_INDEX)
+T1724 006:473.261   
+  ***** Error: 
+T1724 006:473.282   Cannot connect to J-Link.
+T1724 006:473.397 - 0.959ms
+T1724 007:730.855 
+  ***** Warning: 
+T1724 007:730.891 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1724 007:730.908 JLINK_SetSpeed(50000)
+T1724 007:731.822   
+  ***** Error: 
+T1724 007:731.847   Cannot connect to J-Link.
+T1724 007:732.003 - 1.094ms
+T1724 007:732.025 JLINK_HasError()
+T1724 007:732.044 
+  ***** Warning: 
+T1724 007:732.057 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T1724 007:732.072 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T1724 007:732.913   
+  ***** Error: 
+T1724 007:732.935   Cannot connect to J-Link.
+T1724 007:733.053 - 0.981ms
+T1724 007:733.072 
+  ***** Warning: 
+T1724 007:733.085 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1724 007:733.100 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T1724 007:733.891   
+  ***** Error: 
+T1724 007:733.917   Cannot connect to J-Link.
+T1724 007:734.047 - 0.946ms
+T1724 007:734.065 
+  ***** Warning: 
+T1724 007:734.078 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1724 007:734.093 JLINK_SetSpeed(33000)
+T1724 007:734.867   
+  ***** Error: 
+T1724 007:734.889   Cannot connect to J-Link.
+T1724 007:735.010 - 0.916ms
+T1724 007:735.025 JLINK_HasError()
+T1724 007:735.038 
+  ***** Warning: 
+T1724 007:735.051 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T1724 007:735.065 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T1724 007:735.917   
+  ***** Error: 
+T1724 007:735.948   Cannot connect to J-Link.
+T1724 007:736.167 - 1.101ms
+T1724 007:736.189 
+  ***** Warning: 
+T1724 007:736.203 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1724 007:736.219 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T1724 007:737.026   
+  ***** Error: 
+T1724 007:737.045   Cannot connect to J-Link.
+T1724 007:737.151 - 0.932ms
+T1724 007:737.167 
+  ***** Warning: 
+T1724 007:737.180 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1724 007:737.197 JLINK_SetSpeed(25000)
+T1724 007:737.889   
+  ***** Error: 
+T1724 007:737.906   Cannot connect to J-Link.
+T1724 007:738.002 - 0.805ms
+T1724 007:738.016 JLINK_HasError()
+T1724 007:738.028 
+  ***** Warning: 
+T1724 007:738.041 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T1724 007:738.054 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T1724 007:738.721   
+  ***** Error: 
+T1724 007:738.739   Cannot connect to J-Link.
+T1724 007:738.836 - 0.781ms
+T1724 007:738.850 
+  ***** Warning: 
+T1724 007:738.863 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1724 007:738.877 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T1724 007:739.635   
+  ***** Error: 
+T1724 007:739.658   Cannot connect to J-Link.
+T1724 007:739.767 - 0.890ms
+T1724 007:739.783 
+  ***** Warning: 
+T1724 007:739.796 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1724 007:739.810 JLINK_SetSpeed(20000)
+T1724 007:740.527   
+  ***** Error: 
+T1724 007:740.545   Cannot connect to J-Link.
+T1724 007:740.641 - 0.830ms
+T1724 007:740.655 JLINK_HasError()
+T1724 007:740.667 
+  ***** Warning: 
+T1724 007:740.680 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T1724 007:740.694 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T1724 007:741.802   
+  ***** Error: 
+T1724 007:741.835   Cannot connect to J-Link.
+T1724 007:741.984 - 1.289ms
+T1724 007:742.004 
+  ***** Warning: 
+T1724 007:742.017 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1724 007:742.033 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T1724 007:743.073   
+  ***** Error: 
+T1724 007:743.103   Cannot connect to J-Link.
+T1724 007:743.393 - 1.359ms
+T1724 007:743.414 
+  ***** Warning: 
+T1724 007:743.426 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1724 007:743.443 JLINK_SetSpeed(10000)
+T1724 007:744.194   
+  ***** Error: 
+T1724 007:744.213   Cannot connect to J-Link.
+T1724 007:744.316 - 0.873ms
+T1724 007:744.330 JLINK_HasError()
+T1724 007:744.342 
+  ***** Warning: 
+T1724 007:744.355 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T1724 007:744.369 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T1724 007:745.044   
+  ***** Error: 
+T1724 007:745.062   Cannot connect to J-Link.
+T1724 007:745.155 - 0.786ms
+T1724 007:745.169 
+  ***** Warning: 
+T1724 007:745.182 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1724 007:745.196 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T1724 007:745.881   
+  ***** Error: 
+T1724 007:745.899   Cannot connect to J-Link.
+T1724 007:745.994 - 0.797ms
+T1724 007:746.009 
+  ***** Warning: 
+T1724 007:746.021 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1724 007:746.036 JLINK_SetSpeed(5000)
+T1724 007:746.699   
+  ***** Error: 
+T1724 007:746.717   Cannot connect to J-Link.
+T1724 007:746.810 - 0.773ms
+T1724 007:746.823 JLINK_HasError()
+T1724 007:746.835 
+  ***** Warning: 
+T1724 007:746.848 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T1724 007:746.861 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T1724 007:747.768   
+  ***** Error: 
+T1724 007:747.811   Cannot connect to J-Link.
+T1724 007:747.957 - 1.095ms
+T1724 007:747.978 
+  ***** Warning: 
+T1724 007:747.993 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1724 007:748.011 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T1724 007:748.935   
+  ***** Error: 
+T1724 007:748.956   Cannot connect to J-Link.
+T1724 007:749.076 - 1.065ms
+T1724 007:749.094 
+  ***** Warning: 
+T1724 007:749.109 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1724 007:749.210 JLINK_SetSpeed(3000)
+T1724 007:750.050   
+  ***** Error: 
+T1724 007:750.073   Cannot connect to J-Link.
+T1724 007:750.192 - 0.981ms
+T1724 007:750.206 JLINK_HasError()
+T1724 007:750.220 
+  ***** Warning: 
+T1724 007:750.234 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T1724 007:750.248 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T1724 007:750.940   
+  ***** Error: 
+T1724 007:750.958   Cannot connect to J-Link.
+T1724 007:751.052 - 0.804ms
+T1724 007:751.066 
+  ***** Warning: 
+T1724 007:751.079 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1724 007:751.093 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T1724 007:751.773   
+  ***** Error: 
+T1724 007:751.791   Cannot connect to J-Link.
+T1724 007:751.885 - 0.792ms
+T1724 007:751.900 
+  ***** Warning: 
+T1724 007:751.912 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1724 007:751.926 JLINK_SetSpeed(2000)
+T1724 007:752.601   
+  ***** Error: 
+T1724 007:752.618   Cannot connect to J-Link.
+T1724 007:752.711 - 0.783ms
+T1724 007:752.724 JLINK_HasError()
+T1724 007:752.735 
+  ***** Warning: 
+T1724 007:752.748 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T1724 007:752.762 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T1724 007:753.428   
+  ***** Error: 
+T1724 007:753.446   Cannot connect to J-Link.
+T1724 007:753.538 - 0.775ms
+T1724 007:753.551 
+  ***** Warning: 
+T1724 007:753.564 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1724 007:753.578 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T1724 007:754.238   
+  ***** Error: 
+T1724 007:754.256   Cannot connect to J-Link.
+T1724 007:754.348 - 0.769ms
+T1724 007:754.362 
+  ***** Warning: 
+T1724 007:754.375 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1724 007:754.390 JLINK_SetSpeed(1000)
+T1724 007:755.053   
+  ***** Error: 
+T1724 007:755.071   Cannot connect to J-Link.
+T1724 007:755.164 - 0.773ms
+T1724 007:755.177 JLINK_HasError()
+T1724 007:755.188 
+  ***** Warning: 
+T1724 007:755.201 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T1724 007:755.215 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T1724 007:755.879   
+  ***** Error: 
+T1724 007:755.896   Cannot connect to J-Link.
+T1724 007:755.988 - 0.773ms
+T1724 007:756.002 
+  ***** Warning: 
+T1724 007:756.015 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1724 007:756.029 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T1724 007:756.696   
+  ***** Error: 
+T1724 007:756.714   Cannot connect to J-Link.
+T1724 007:756.805 - 0.776ms
+T1724 007:756.819 
+  ***** Warning: 
+T1724 007:756.832 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1724 007:756.846 JLINK_SetSpeed(500)
+T1724 007:757.513   
+  ***** Error: 
+T1724 007:757.530   Cannot connect to J-Link.
+T1724 007:757.622 - 0.775ms
+T1724 007:757.635 JLINK_HasError()
+T1724 007:757.646 
+  ***** Warning: 
+T1724 007:757.659 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T1724 007:757.673 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T1724 007:758.729   
+  ***** Error: 
+T1724 007:758.807   Cannot connect to J-Link.
+T1724 007:758.956 - 1.282ms
+T1724 007:758.975 
+  ***** Warning: 
+T1724 007:758.988 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1724 007:759.004 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T1724 007:759.893   
+  ***** Error: 
+T1724 007:759.913   Cannot connect to J-Link.
+T1724 007:760.022 - 1.018ms
+T1724 007:760.039 
+  ***** Warning: 
+T1724 007:760.052 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1724 007:760.066 JLINK_SetSpeed(200)
+T1724 007:760.953   
+  ***** Error: 
+T1724 007:760.972   Cannot connect to J-Link.
+T1724 007:761.078 - 1.011ms
+T1724 007:761.092 JLINK_HasError()
+T1724 007:761.104 
+  ***** Warning: 
+T1724 007:761.117 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T1724 007:761.131 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T1724 007:761.827   
+  ***** Error: 
+T1724 007:761.854   Cannot connect to J-Link.
+T1724 007:761.949 - 0.817ms
+T1724 007:761.964 
+  ***** Warning: 
+T1724 007:761.976 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1724 007:761.991 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T1724 007:762.660   
+  ***** Error: 
+T1724 007:762.677   Cannot connect to J-Link.
+T1724 007:762.771 - 0.780ms
+T1724 007:762.786 
+  ***** Warning: 
+T1724 007:762.798 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1724 007:762.812 JLINK_SetSpeed(100)
+T1724 007:763.509   
+  ***** Error: 
+T1724 007:763.528   Cannot connect to J-Link.
+T1724 007:763.628 - 0.815ms
+T1724 007:763.641 JLINK_HasError()
+T1724 007:763.653 
+  ***** Warning: 
+T1724 007:763.666 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T1724 007:763.680 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T1724 007:764.416   
+  ***** Error: 
+T1724 007:764.435   Cannot connect to J-Link.
+T1724 007:764.540 - 0.859ms
+T1724 007:764.555 
+  ***** Warning: 
+T1724 007:764.568 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1724 007:764.583 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T1724 007:765.273   
+  ***** Error: 
+T1724 007:765.292   Cannot connect to J-Link.
+T1724 007:765.386 - 0.802ms
+T1724 007:765.400 
+  ***** Warning: 
+T1724 007:765.412 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1724 007:765.427 JLINK_SetSpeed(50)
+T1724 007:766.089   
+  ***** Error: 
+T1724 007:766.107   Cannot connect to J-Link.
+T1724 007:766.200 - 0.772ms
+T1724 007:766.213 JLINK_HasError()
+T1724 007:766.224 
+  ***** Warning: 
+T1724 007:766.237 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T1724 007:766.250 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T1724 007:766.918   
+  ***** Error: 
+T1724 007:766.935   Cannot connect to J-Link.
+T1724 007:767.028 - 0.776ms
+T1724 007:767.041 
+  ***** Warning: 
+T1724 007:767.054 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1724 007:767.068 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T1724 007:767.735   
+  ***** Error: 
+T1724 007:767.753   Cannot connect to J-Link.
+T1724 007:767.845 - 0.776ms
+T1724 007:767.859 
+  ***** Warning: 
+T1724 007:767.871 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1724 007:767.885 JLINK_SetSpeed(20)
+T1724 007:768.545   
+  ***** Error: 
+T1724 007:768.563   Cannot connect to J-Link.
+T1724 007:768.657 - 0.771ms
+T1724 007:768.670 JLINK_HasError()
+T1724 007:768.681 
+  ***** Warning: 
+T1724 007:768.694 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T1724 007:768.708 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T1724 007:769.459   
+  ***** Error: 
+T1724 007:769.480   Cannot connect to J-Link.
+T1724 007:769.588 - 0.880ms
+T1724 007:769.603 
+  ***** Warning: 
+T1724 007:769.616 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1724 007:769.631 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T1724 007:770.348   
+  ***** Error: 
+T1724 007:770.366   Cannot connect to J-Link.
+T1724 007:770.461 - 0.829ms
+T1724 007:770.475 
+  ***** Warning: 
+T1724 007:770.488 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1724 007:770.502 JLINK_SetSpeed(10)
+T1724 007:771.176   
+  ***** Error: 
+T1724 007:771.193   Cannot connect to J-Link.
+T1724 007:771.286 - 0.783ms
+T1724 007:771.300 JLINK_HasError()
+T1724 007:771.312 
+  ***** Warning: 
+T1724 007:771.325 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T1724 007:771.338 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T1724 007:771.998   
+  ***** Error: 
+T1724 007:772.016   Cannot connect to J-Link.
+T1724 007:772.108 - 0.769ms
+T1724 007:772.122 
+  ***** Warning: 
+T1724 007:772.135 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1724 007:772.149 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T1724 007:772.811   
+  ***** Error: 
+T1724 007:772.829   Cannot connect to J-Link.
+T1724 007:772.921 - 0.771ms
+T1724 007:772.934 
+  ***** Warning: 
+T1724 007:773.023 API Error: API JLINK_SetSpeed function called before JLINKARM_Open()
+T1724 007:773.038 JLINK_SetSpeed(5)
+T1724 007:773.710   
+  ***** Error: 
+T1724 007:773.728   Cannot connect to J-Link.
+T1724 007:773.823 - 0.785ms
+T1724 007:773.836 JLINK_HasError()
+T1724 007:773.848 
+  ***** Warning: 
+T1724 007:773.860 API Error: API JLINK_WriteMem function called before JLINKARM_Open()
+T1724 007:773.874 JLINK_WriteMem(0x20000000, 0xA Bytes, ...)
+T1724 007:774.680   
+  ***** Error: 
+T1724 007:774.706   Cannot connect to J-Link.
+T1724 007:774.841 - 0.966ms
+T1724 007:774.860 
+  ***** Warning: 
+T1724 007:774.876 API Error: API JLINK_ReadMem function called before JLINKARM_Open()
+T1724 007:774.893 JLINK_ReadMem(0x20000000, 0xA Bytes, ...)
+T1724 007:775.930   
+  ***** Error: 
+T1724 007:775.961   Cannot connect to J-Link.
+T1724 007:776.100 - 1.206ms
+T1724 007:776.898 JLINK_IsOpen()
+T1724 007:776.922 - 0.023ms returns 0x00
+T1724 007:776.944 JLINK_EMU_SelectByUSBSN(SerialNo = 0)
+T1724 007:777.808 - 0.872ms returns 0xFFFFFFFF
+T1724 007:777.828 JLINK_EnableLog(...)
+T1724 007:777.839 - 0.010ms
+T1724 007:777.851 JLINK_SetLogFile(...)
+T1724 007:777.861 - 0.010ms
+T1724 007:777.873 JLINK_SetWarnOutHandler(...)
+T1724 007:777.883 - 0.010ms
+T1724 007:777.895 JLINK_OpenEx(...)
+T1724 007:778.750   
+  ***** Error: 
+T1724 007:778.772   Cannot connect to J-Link.
+T1724 007:778.932 - 1.036ms returns "Cannot connect to J-Link."
+T1724 007:779.281 
+  ***** Warning: 
+T1724 007:779.303 API Error: API JLINK_GetHardwareVersion function called before JLINKARM_Open()
+T1724 007:779.372 JLINK_GetHardwareVersion()
+T1724 007:780.197   
+  ***** Error: 
+T1724 007:780.216   Cannot connect to J-Link.
+T1724 007:780.355 - 0.982ms
+T1724 020:315.397 JLINK_IsOpen()
+T1724 020:315.435 - 0.038ms returns 0x00
+T1724 020:315.448 JLINK_EMU_GetList(InterfaceMask = 0x00000001, MaxInfos = 0x00000010) 
+T1724 020:316.406 - 0.956ms returns 0
+T1724 021:523.138 JLINK_IsOpen()
+T1724 021:523.173 - 0.034ms returns 0x00
+T1724 021:523.186 JLINK_EMU_GetList(InterfaceMask = 0x00000001, MaxInfos = 0x00000010) 
+T1724 021:524.132 - 0.945ms returns 0
+T1724 022:527.318 JLINK_Close()
+T1724 022:527.459 - 0.141ms
+T1724 022:527.474   
+T1724 022:527.483   Closed
